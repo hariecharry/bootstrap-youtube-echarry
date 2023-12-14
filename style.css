@@ -1,44 +1,32 @@
 body{
-
+    margin: 0;
+    height: 100vh; 
 }
 .container{
-    
     display: flex;
-    align-content: stretch;
-    background-color:#000000;
-    height: 100%;
-    width: 100%;
+    flex-wrap: wrap;
+    background-color:black;
+    height: 100vh;
+    width: 100vw;
 }
 
 .left{
-    display: flex;
-    flex-direction: column;
+    flex: 0 0 20%;
     height: 100vh;
-    width: 20vw;
-    border-radius: 10px;
     background-color: pink;
-    box-sizing: border-box;
 }
 
 .top{
-    display: flex;
-    flex-direction: column;
+    flex: 0 0 80%;
     height: 10vh;
     width: 60vw;
-    border-radius: 10px;
-    background-color: lavender;
-    box-sizing: border-box;
+    background-color: plum;
 }
 
 .body{
-    display: flex;
-    align-self: flex-end;
+    display: 0 0 80%;
     height: 90vh;
-    width: 80vw;
-    border-radius: 10px;
-    background-color: lavender;
-    box-sizing: border-box;
-
+    background-color: turquoise;
 }
 
 
