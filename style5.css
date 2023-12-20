@@ -1,0 +1,33 @@
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr; /* Sidebar takes 200px, rest is for body */
+  grid-template-rows: 70px auto;
+  grid-template-areas:
+    "header header"
+    "sidebar body";
+  min-height: 100vh;
+  min-width: 100vw;
+}
+
+.header {
+    grid-area: header;
+    color: white;
+    background-color: #0f0f0f;
+    padding: 20px;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  background-color: turquoise;
+  padding: 20px;
+}
+
+.body {
+  grid-area: body;
+  background-color: #e0e0e0;
+  padding: 20px;
+}
+
+aside{
+  background-color: plum;
+}

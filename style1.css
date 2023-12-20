@@ -1,0 +1,51 @@
+body{
+    margin: 0;
+    height: 100vh; 
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color:black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.top{
+    align-items: center;
+    height: 10vh;
+    width: 100vw;
+    background-color: plum;
+}
+
+.topnav {
+    display: flex;
+    align-items: center;
+    
+  }
+
+.menu{
+    
+    width: 20px;
+    height: 2px;
+    background-color: white;
+    margin: 4px 0;
+}
+
+input[type="text"]{
+    border-radius: 20px;
+    padding: 8px;
+}
+
+.left{
+    flex: 0 0 20%;
+    height: 100vh;
+    background-color: pink;
+}
+
+.body{
+    height: 90vh;
+    width: 0vw;
+    background-color: turquoise;
+}
+
+
